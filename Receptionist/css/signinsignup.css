@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(48, 46, 46);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+input[type=submit] {
+    background-color: darkcyan;
+    font-size: 1.5rem;
+    border-radius: 20px;
+}
+
+.loginform {
+    justify-self: center;
+    margin-top: 150px;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+.signinsignuplink {
+    color: rgb(31, 110, 84);
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+.success {
+    color: green;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.unsuccess {
+    color: red;
+    font-size: 1.5rem;
+    text-align: center;
+}

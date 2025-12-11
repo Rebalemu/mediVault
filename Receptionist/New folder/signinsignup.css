@@ -1,0 +1,134 @@
+body {
+    background-color: rgb(61, 59, 59);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+input[type=submit] {
+    background-color: darkcyan;
+    font-size: 1.5rem;
+    border-radius: 20px;
+}
+
+.loginform {
+    justify-self: center;
+    margin-top: 150px;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+.signinsignuplink {
+    color: rgb(31, 110, 84);
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+.success {
+    color: green;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.unsuccess {
+    color: red;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: 280px auto;
+    gap: 10px;
+}
+
+.dashboard .submenu-1 {
+    background-color: rgb(136, 136, 219);
+    height: 100vb;
+    border-radius: 10px;
+}
+
+.dashboard .submenu-1 ul {
+    list-style-type: none;
+}
+
+.dashboard .submenu-1 ul li a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin: 15px;
+    display: block;
+    font-variant: small-caps;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+
+    &:hover {
+        color: aqua;
+    }
+}
+
+.dashboard .submenu-2 h1 {
+    color: white;
+}
+
+.dashboard .submenu-2 .submenu-3 {
+    position: absolute;
+    right: 1.5rem;
+    top: 0px;
+    display: inline-flex;
+    flex-direction: row;
+    /* background-color: aquamarine; */
+    width: 550px;
+    padding: 20px;
+}
+
+.dashboard .submenu-2 .submenu-3 .username {
+    text-align: center;
+    margin: 5px 20px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.dashboard .submenu-2 .submenu-3 .help {
+
+    margin: 5px 20px;
+    font-size: 1.5rem;
+}
+
+.profileImage img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.username a {
+    color: whitesmoke;
+    text-decoration: none;
+
+    &:hover {
+        color: aqua;
+    }
+}
+
+.help a {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+        color: aqua;
+    }
+}
+
+.dataContainer {
+    background-color: antiquewhite;
+}

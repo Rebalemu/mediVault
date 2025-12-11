@@ -1,0 +1,1356 @@
+/* =======Responsive Design=========*/
+@media (max-width: 450px){
+    /* ======HEADER SECTION */
+.header-container {
+        display: flex;
+        flex-direction: column;
+}
+        .header-container .title {
+            font-size: 0.8rem;
+            padding: 5px;
+            align-self: flex-start;
+        }
+        .title img {
+            width: 50px;
+            padding: 5px;
+        }
+        .header-container .menu-bar .nav-menu {
+            display: none;
+            position: absolute;
+            right: 0rem;
+            top: 0rem;
+        }
+        .header-container .menu-bar .nav-menu li {
+            display: flex;
+            flex-direction: column;
+        }
+        .header-container .menu-bar .togglebutton {
+            display: block;
+            position: absolute;
+            top: 3rem;
+            right: 1rem;
+            border: 1px solid rgb(161, 161, 161);
+            border-radius: 5px;
+            padding: 1px;
+            &:hover {
+                border: 1px solid rgb(231, 229, 229);
+            }
+        }
+        .header-container .menu-bar .togglebutton span {
+            display: block;
+            width: 30px;
+            height: 3px;
+            margin: 3px 0px;
+            cursor: pointer;
+            background-color: #203558;
+            &:hover {
+                background-color: #5e78a5;
+            }
+        }
+        .header-container .menu-bar:hover .nav-menu {
+            display: block;
+            cursor: pointer;
+            background-color: white;
+            box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.61);
+            padding: 0;
+        }
+/* ====HOME SECTION STARTS HERE===== */
+.home {
+    background-image: url(images/Hero-verysmall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#home h4 {
+    margin: 20px;
+    font-size: 1.2rem;
+    padding: 4px;
+}
+#home p {
+    font-size: 1.75rem;
+}
+.Button button {
+    margin: 2px;
+    padding: 5px 10px;
+}
+
+/* =====ABOUT PAGE STARTS HERE=== */
+.about {
+    flex-direction: column;
+    margin: 30px 2px;
+}
+.about .aboutimage img {
+    width: 380px;
+    height: 400px;
+    margin: 3px;
+}
+
+.about .description h2 {
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.about .description h1 {
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+.about .description p {
+    font-size: 1.1rem;
+    margin: 5px;
+}
+.description span {
+    padding: 20px;
+}
+.services {
+    margin-top: 40px;
+}
+.services h2 {
+    font-size: 1.2rem;
+}
+.services h1 {
+    font-size: 1.75rem;
+}
+.Service {
+    margin: 10px;
+}
+.services .service-given {
+    width: 95%;
+    font-size: 1.25em;
+    height: 400px;
+    text-align: center;
+}
+/* =======OUR TEAM SECTION STARTS HERE========== */
+.our-Team h2 {
+    font-size: 1.2rem;
+}
+.our-Team h1 {
+    font-size: 1.75rem;
+}
+.our-Team .our-Doctors .doctors {
+    width: 95%;
+    margin: 10px;
+}
+.our-Team .our-Doctors .doctors p {
+    font-size: 1.1rem;
+}
+/* =====CONATACT PAGE STARTS HERE=== */
+.contact .title h4 {
+    font-size: 1.2rem;
+}
+.contact .title h1 {
+    font-size:1.75rem;
+}
+.rows img {
+    padding: 5px;
+    width: 50px;
+}
+.contact .rows {
+    width: 90%;
+    height: 200px;
+    padding: 20px;
+    margin: 10px;
+}
+.contact .form {
+    margin: 10px;
+}
+.contact .form form {
+    width: 90%;
+    height: 450px;
+    margin: 10px;
+    padding: 20px;
+}
+.form form input {
+    padding: 15px;
+    width: 85%;
+    margin: 5px;
+}
+.form form textarea {
+    margin: 5px;
+    width: 85%;
+}
+.footer {
+    margin-top: 30px;
+    width: 100%;
+    padding: 20px;
+}
+.footer .footer-block {
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-block .footer-contact h2 {
+    font-size: 1.2rem;
+}
+.footer-block .Quicklink h2 {
+    font-size: 1.3rem;
+}
+.footer-block .social-media h2 {
+    font-size: 1.3rem;
+}
+}
+
+@media  ( min-width:451px ) and (max-width:600px){
+/* ======HEADER SECTION */
+    .header-container {
+        display: flex;
+        flex-direction: column;
+        }
+    .header-container .title {
+        font-size: 0.9rem;
+        padding: 7px;
+        align-self: flex-start;
+    }   
+    .title img{
+        width: 70px;
+        padding: 7px;
+    }
+    .header-container .menu-bar .nav-menu {
+        display: none;
+        position: absolute;
+        right: 0rem;
+        top: 0rem;
+        }
+    .header-container .menu-bar .nav-menu li {
+        display: flex;
+        flex-direction: column;
+        }
+    .header-container .menu-bar .togglebutton {
+        display: block;
+        position: absolute;
+        top: 3rem;
+        right: 1rem;
+        border:1px solid rgb(161, 161, 161);
+        border-radius: 5px;
+        padding:1px;
+        &:hover{
+            border: 1px solid rgb(231, 229, 229);
+        }
+    }
+    .header-container .menu-bar .togglebutton span {
+        display: block;
+        width: 30px;
+        height: 3px;
+        margin: 4px 0px;
+        cursor: pointer;
+        background-color: #203558;
+        &:hover{
+            background-color: #5e78a5;
+        }
+}
+    .header-container .menu-bar:hover .nav-menu {
+        display: block;
+        cursor: pointer;
+        background-color: white;
+        box-shadow:2px 3px 4px rgba(0, 0, 0, 0.61) ;
+        padding: 0;
+    }
+
+/* ====HOME SECTION STARTS HERE===== */
+.home {
+    background-image: url(images/hero-small.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#home h4 {
+    margin: 30px;
+    font-size: 1.3rem;
+    padding: 4px;
+    color: #20e5ff !important;
+}
+#home p {
+    font-size: 2rem;
+    text-align: center;
+    padding: 5px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.Button button {
+    margin: 5px;
+    padding: 10px 20px;
+}
+/* =====ABOUT PAGE STARTS HERE=== */
+.about{
+    flex-direction: column;
+    margin: 50px 10px;
+}
+.about .aboutimage img {
+    width: 450px;
+    height: 520px;
+    margin:auto;
+    border-radius: 25px;
+}
+.about .description h2 {
+    font-size: 1.3rem;
+    text-align: center;
+}
+.about .description h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+.about .description p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+.description span {
+    padding: 0px;
+}
+/* =====SERVICES PAGE STARTS HERE=== */
+.services{
+    margin-top:50px;
+}
+.services h2 {
+    font-size: 1.2rem;
+}
+.services h1 {
+    font-size: 2rem;
+}
+.Service {
+    margin: 20px;
+}
+.services .service-given {
+    width: 95%;
+    font-size:1.25em;
+    height: 400px;
+    display: block;
+    background-color: #cef0f5;
+    text-align: center;
+
+    &:hover {
+        transform: scale(1.05);
+        box-shadow: 3px 6px 9px rgb(64, 102, 107);
+        cursor: pointer;
+    }
+}
+/* =======OUR TEAM SECTION STARTS HERE========== */
+.our-Team {
+    margin-top: 50px;
+}
+.our-Team h2 {
+    font-size: 1.2rem;
+}
+.our-Team h1 {
+    font-size: 2rem;
+}
+.our-Team .our-Doctors .doctors {
+    width: 95%;
+    margin: 10px;
+}
+.our-Team .our-Doctors .doctors img {
+    width: 90%;
+    margin: 20px;
+}
+.our-Team .our-Doctors .doctors h4 {
+    font-size: 1.3rem;
+}
+.our-Team .our-Doctors .doctors p {
+    font-size: 1.2rem;
+}
+
+/* =====CONATACT PAGE STARTS HERE=== */
+.contact .title h4 {
+    font-size: 1.2rem;
+}
+.contact .title h1 {
+    font-size: 2rem;
+}
+.rows img {
+    padding: 10px;
+    width: 60px;
+}
+.contact .rows {
+    width: 90%;
+    height: 200px;
+    padding: 30px;
+    margin: 20px;
+}
+.contact .form {
+    margin: 30px;
+}
+.contact .form form {
+    width: 90%;
+    height: 550px;
+    margin: auto;
+    padding: 20px;
+}
+.form form input {
+    padding: 15px;
+    width: 85%;
+    margin: 10px;
+}
+.form form textarea {
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    width:85%;
+}
+.footer {
+    margin-top: 50px;
+    width: 100%;
+    padding: 20px;
+}
+.footer .footer-block {
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-block .footer-contact h2 {
+    font-size: 1.3rem;
+}
+.footer-block .Quicklink h2 {
+    font-size: 1.3rem;
+}
+.footer-block .social-media h2 {
+    font-size: 1.4rem;
+}
+}
+@media (min-width:601px) and (max-width:950px){
+/* ======HEADER SECTION */
+    .header-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-container .title {
+        font-size: 1.2rem;
+        padding: 10px;
+        align-self: flex-start;
+    }
+
+    .title img {
+        width: 90px;
+        padding: 10px;
+    }
+
+    .header-container .menu-bar .nav-menu {
+        display: none;
+        position: absolute;
+        right: 0rem;
+        top: 0rem;
+    }
+
+    .header-container .menu-bar .nav-menu li {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-container .menu-bar .togglebutton {
+        display: block;
+        position: absolute;
+        top: 3rem;
+        right: 1.1rem;
+        border: 1px solid rgb(161, 161, 161);
+        border-radius: 5px;
+        padding: 1px;
+
+        &:hover {
+            border: 1px solid rgb(231, 229, 229);
+        }
+    }
+
+    .header-container .menu-bar .togglebutton span {
+        display: block;
+        width: 35px;
+        height: 4px;
+        margin: 4px 0px;
+        cursor: pointer;
+        background-color: #203558;
+        &:hover {
+            background-color: #5e78a5;
+        }
+    }
+
+    .header-container .menu-bar:hover .nav-menu {
+        display: block;
+        cursor: pointer;
+        background-color: white;
+        box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.61);
+        padding: 0;
+    }
+/* ====HOME SECTION STARTS HERE===== */
+.home {
+    background-image: url(images/hero-medium.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#home h4 {
+    margin: 50px;
+    font-size: 1.3rem;
+    padding: 4px;
+
+}
+
+#home p {
+    font-size: 2.5rem;
+    padding: 10px;
+}
+.Button button {
+    margin: 5px;
+    padding: 10px 20px;
+}
+.about {
+    flex-direction: column;
+    margin: 60px 20px;
+}
+.about .aboutimage img {
+    width: 560px;
+    height: 520px;
+    margin: auto;
+    border-radius: 25px;
+}
+.about .description h2 {
+    font-size: 1.4rem;
+    text-align: center;
+}
+.about .description h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+.about .description p {
+    font-size: 1.3rem;
+    margin: 0;
+}
+.description span {
+    padding: 0px;
+}
+.description span img {
+    width: 80px;
+    margin: 35px;
+    border-radius: 50%;
+}
+/* =====SERVICES PAGE STARTS HERE=== */
+.services {
+    margin-top: 80px;
+}
+.services h2 {
+    font-size: 1.3rem;
+}
+.services h1 {
+    font-size: 2.5rem;
+}
+.Service {
+    margin: 40px;
+}
+.services .service-given {
+    width: 95%;
+    font-size: 1.25em;
+    height: 400px;
+    display: block;
+    background-color: #cef0f5;
+    text-align: center;
+    &:hover {
+        transform: scale(1.05);
+        box-shadow: 3px 6px 9px rgb(64, 102, 107);
+        cursor: pointer;
+    }
+}
+/* =======OUR TEAM SECTION STARTS HERE========== */
+.our-Team {
+    margin-top: 60px;
+}
+.our-Team h2 {
+    font-size: 1.3rem;
+}
+.our-Team h1 {
+    font-size: 2.5rem;
+}
+.our-Team .our-Doctors .doctors {
+    width: 95%;
+    margin: 10px;
+}
+.our-Team .our-Doctors .doctors img {
+    width: 80%;
+    margin:40px;
+}
+.our-Team .our-Doctors .doctors h4 {
+    font-size: 1.4rem;
+}
+.our-Team .our-Doctors .doctors p {
+    font-size: 1.3rem;
+}
+/* =====CONATACT PAGE STARTS HERE=== */
+.contact .title h4 {
+    font-size: 1.3rem;
+}
+
+.contact .title h1 {
+    font-size: 2.5rem;
+}
+.rows img {
+    padding: 15px;
+    width: 70px;
+}
+.contact .rows {
+    width: 90%;
+    height: 180px;
+    padding: 50px;
+    margin: 20px;
+}
+.contact .form {
+    margin: 50px;
+}
+.contact .form form {
+    width: 90%;
+    height: 550px;
+    margin: auto;
+    padding: 20px;
+}
+.form form input {
+    padding: 15px;
+    width: 85%;
+    margin: 10px;
+}
+.form form textarea {
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    width: 85%;
+}
+/* ======FOOTER STRATS HERE======= */
+.footer {
+    margin-top: 50px;
+    width: 100%;
+    padding: 20px;
+}
+.footer .footer-block {
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-block .footer-contact h2 {
+    font-size: 1.4rem;
+}
+
+.footer-block .Quicklink h2 {
+    font-size: 1.4rem;
+}
+.footer-block .social-media h2 {
+    font-size: 1.4rem;
+}
+}
+@media (min-width: 951px) and (max-width:1114px){
+/* ======HEADER SECTION */
+.header-container .title {
+        font-size: 1.2rem;
+}
+.title img {
+    width: 90px;
+    padding: 8px;
+}
+.header-container .menu-bar ul,li {
+    font-size: 1.25rem;
+    margin: 20px 30px;
+}
+/* ====HEADER SECTION ENDS HERE */
+
+/* ====HOME SECTION STARTS HERE===== */
+.home {
+    height: 700px;
+    background-image: url(images/hero-very-medium.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* =====ABOUT PAGE STARTS HERE=== */
+.about {
+    display: flex;
+    margin: 30px;
+    justify-items: center;
+}
+.about .aboutimage img {
+    width: 450px;
+    height: 520px;
+    margin-right: 10px;
+    border-radius: 25px;
+}
+.about .description h2 {
+    font-size: 1.3rem;
+}
+.about .description p {
+    font-size: 1.1rem;
+}
+.description span {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px;
+}
+.description span img {
+    width: 60px;
+    margin: 10px;
+    border-radius: 50%;
+}
+/* =====SERVICES PAGE STARTS HERE=== */
+.services h2 {
+    margin: 5px;
+    font-size: 1.3rem;
+}
+.services h1 {
+    font-size: 3rem;
+}
+.services .service-given {
+    width: 46%;
+    height: 400px;
+    display: block;
+    padding: 30px;
+    margin: 15px;
+}
+.service-given img {
+    padding: 10px;
+    margin: 5px;
+    width: 80px;
+    border-radius: 40%;
+    background-color: #13C5DD !important;
+}
+/* =======OUR TEAM SECTION STARTS HERE========== */
+.our-Team {
+    margin-top: 100px;
+}
+.our-Team h2 {
+    font-size: 1.3rem;
+}
+.our-Team h1 {
+    font-size: 3rem;
+}
+.our-Team .our-Doctors .doctors {
+    float: left;
+    width: 30%;
+    border: 1px solid rgba(14, 13, 13, 0.329);
+    margin: 10px;
+    margin-left: 15px;
+}
+.our-Team .our-Doctors .doctors img {
+    width: 90%;
+    height: 300px;
+    margin: 20px;
+    border-radius: 5px;
+}
+.our-Team .our-Doctors .doctors h4 {
+    font-size: 1.4rem;
+    text-align: center;
+    color: rgb(83, 47, 47);
+}
+.our-Team .our-Doctors .doctors p {
+    width: 90%;
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #4e4e4e;
+}
+/* =====CONATACT PAGE STARTS HERE=== */
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 100px;
+}
+.contact .title h4 {
+    font-size: 1.3rem;
+}
+
+.contact .title h1 {
+    font-size: 3rem;
+    padding: 5px;
+}
+.rows img {
+    padding: 20px;
+    margin: 5px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #13C5DD !important;
+}
+.contact .rows {
+    width: 30%;
+    height: 200px;
+    font-size: 1.1rem;
+    display: block;
+    padding: 40px;
+    margin: 15px;
+    float: left;
+}
+.contact .form {
+    margin: 40px;
+}
+.contact .form form {
+    width: 70%;
+    height: 550px;
+    margin: auto;
+    padding: 20px;
+}
+.form form input {
+    padding: 10px;
+}
+form>input:nth-child(1),input:nth-child(2) {
+    width: 40%;
+    margin: 10px;
+}
+form>input:nth-child(2) {
+    width: 40%;
+    margin: 10px;
+}
+.form form textarea {
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #eceeee;
+    transition: 0.75s;
+
+    &:hover {
+        border: 3px solid #99dbe4;
+    }
+}
+.form form #submit {
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: #13C5DD;
+    border: 1px solid transparent;
+}
+/* =======FOOTER SECTION PAGE========== */
+.footer {
+    margin-top: 90px;
+    width: 100%;
+}
+.footer .footer-block {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    gap: 20px;
+    justify-items: center;
+}
+.footer-block .footer-contact h2 {
+    font-size: 1.5rem;
+}
+.footer-block .footer-contact img {
+    width: 20px;
+    margin: 10px;
+}
+.footer-block .Quicklink h2 {
+    font-size: 1.4rem;
+}
+.footer-block .social-media h2 {
+
+    font-size: 1.5rem;
+}
+.footer-block .social-media .icon {
+    width: 330px;
+    padding: 30px;
+}
+.footer-block .social-media .icon h4 {
+    font-size: 1.2rem;
+    margin: 20px;
+    color: #13C5DD !important;
+    text-transform: uppercase;
+    text-align: left;
+}
+.footer-block .social-media .icon img {
+    width: 50px;
+    margin: 6px;
+    float: left;
+}
+}
+@media (min-width:1115px){
+    /* ======HEADER SECTION */
+        .header-container {
+            display: flex;
+            text-align: center;
+            background-color: white;
+            top: 0;
+    
+        }
+    
+        .header-container .title {
+            display: flex;
+            font-size: 1.5rem;
+            padding: 10px;
+            color: #13C5DD !important;
+            align-self: center;
+        }
+    
+        .title img {
+            width: 100px;
+            padding: 10px;
+        }
+    
+        .header-container .menu-bar ul,
+        li {
+            display: flex;
+            width: fit-content;
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin: 20px 50px;
+            list-style: none;
+        }
+    
+        .header-container .menu-bar li a {
+            text-decoration: none;
+            color: black;
+            transition: 1s;
+    
+            &:hover {
+                color: #13C5DD !important;
+                text-decoration: underline;
+                text-decoration-thickness: 5px;
+                text-decoration-color: #13C5DD;
+            }
+        }
+    
+        .header-container .togglebutton {
+            display: none;
+        }
+    
+        /* ====HEADER SECTIO ENDS HERE */
+    
+        /* ====HOME SECTION STARTS HERE===== */
+        .home {
+            height: 700px;
+            background-image: url(images/homepage.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    
+        .home #home {
+            display: flex;
+            width: 60%;
+            flex-direction: column;
+            justify-content: center;
+        }
+    
+        #home h4 {
+            margin: 100px;
+            font-size: 1.35rem;
+            padding: 10px;
+            color: #13C5DD !important;
+            text-decoration: underline;
+            text-decoration-thickness: 5px;
+            text-decoration-color: rgb(211, 200, 200);
+            text-align: left;
+        }
+    
+        #home p {
+            font-size: 3rem;
+            text-align: center;
+            padding: 10px;
+            font-weight: 600;
+            text-transform: capitalize;
+        }
+    
+        .home .Button {
+            width: 80%;
+            text-align: center;
+    
+        }
+    
+        .Button button {
+            font-size: 1.2rem;
+            font-weight: bolder;
+            margin: 10px;
+            padding: 15px 20px;
+            border-radius: 25px;
+            border: 1px solid white;
+            background-color: transparent;
+            transition: 1ms;
+    
+            &:hover {
+                background-color: white;
+                cursor: pointer;
+            }
+        }
+    
+        .Button #button1 {
+            background-color: white;
+        }
+    
+        /* ======HOME SECTION ENDS HERE== */
+    
+        /* =====ABOUT PAGE STARTS HERE=== */
+        .about {
+            display: flex;
+            margin: 100px;
+            justify-items: center;
+        }
+    
+        .about .aboutimage img {
+            width: 530px;
+            height: 520px;
+            margin-right: 30px;
+            border-radius: 25px;
+        }
+    
+        .about .description h2 {
+            margin: 5px;
+            font-size: 1.25rem;
+            padding: 5px;
+            color: #13C5DD !important;
+            text-decoration: underline;
+            text-decoration-thickness: 5px;
+            text-decoration-color: rgb(211, 200, 200);
+            text-align: left;
+        }
+    
+        .about .description h1 {
+            margin: 5px;
+            font-size: 2.5rem;
+            padding: 5px;
+            color: #00134e !important;
+            text-align: left;
+        }
+    
+        .about .description p {
+            font-size: 1.25rem;
+            padding: 5px;
+            margin: 5px;
+            color: rgb(114, 113, 113);
+        }
+    
+        .description span {
+            float: left;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 600;
+            border-radius: 50%;
+            padding: 5px;
+    
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    
+        .description span img {
+            width: 50px;
+            margin: 35px;
+            border-radius: 50%;
+        }
+    
+        /* =====SERVICES PAGE STARTS HERE=== */
+        .services {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+    
+        .services h2 {
+            margin: 5px;
+            font-size: 1.25rem;
+            padding: 5px;
+            color: #13C5DD !important;
+            text-transform: uppercase;
+            text-decoration: underline;
+            text-decoration-thickness: 5px;
+            text-decoration-color: rgb(211, 200, 200);
+            text-align: center;
+        }
+    
+        .services h1 {
+            margin: 5px;
+            font-size: 2.5rem;
+            padding: 5px;
+            text-transform: capitalize;
+            color: #00134e !important;
+            text-align: center;
+        }
+    
+        .Service {
+            margin: 50px 0px;
+        }
+    
+        .services .service-given {
+            width: 30%;
+            height: 350px;
+            display: block;
+            padding: 50px;
+            margin: 15px;
+            float: left;
+            background-color: #cef0f5;
+            text-align: center;
+    
+            &:hover {
+                transform: scale(1.05);
+                box-shadow: 3px 6px 9px rgb(64, 102, 107);
+                cursor: pointer;
+            }
+        }
+    
+        .service-given img {
+            padding: 20px;
+            margin: 5px;
+            width: 80px;
+            border-radius: 40%;
+            background-color: #13C5DD !important;
+        }
+    
+        .service-given p {
+            padding: 5px;
+            margin: 5px;
+            color: rgb(114, 113, 113);
+        }
+    
+        /* =======OUR TEAM SECTION STARTS HERE========== */
+        .our-Team {
+            margin-top: 100px;
+        }
+    
+        .our-Team h2 {
+            margin: 5px;
+            font-size: 1.25rem;
+            padding: 5px;
+            color: #13C5DD !important;
+            text-transform: uppercase;
+            text-decoration: underline;
+            text-decoration-thickness: 5px;
+            text-decoration-color: rgb(211, 200, 200);
+            text-align: center;
+        }
+    
+        .our-Team h1 {
+            margin: 5px;
+            font-size: 2.5rem;
+            padding: 5px;
+            text-transform: capitalize;
+            color: #00134e !important;
+            text-align: center;
+        }
+    
+        .our-Team .our-Doctors .doctors {
+            display: block;
+            height: 600px;
+            float: left;
+            width: 30%;
+            border: 1px solid rgba(14, 13, 13, 0.329);
+            margin: 10px;
+            margin-left: 20px;
+            box-shadow: 2px 4px 6px #84ceff;
+            background-color: #fffefe;
+            cursor: pointer;
+        }
+    
+        .our-Team .our-Doctors .doctors img {
+            width: 90%;
+            height: 300px;
+            margin: 20px;
+            border-radius: 5px;
+        }
+    
+        .our-Team .our-Doctors .doctors h4 {
+            font-size: 1.4rem;
+            text-align: center;
+            color: rgb(83, 47, 47);
+        }
+    
+        .our-Team .our-Doctors .doctors p {
+            width: 85%;
+            padding: 20px;
+            font-size: 1.25rem;
+            text-align: center;
+            color: #4e4e4e;
+        }
+    
+        .our-Team .our-Doctors .doctors p::first-line {
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+    
+        /* =====CONATACT PAGE STARTS HERE=== */
+        .contact {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-top: 100px;
+        }
+    
+        .contact .title h4 {
+            margin: 5px;
+            font-size: 1.25rem;
+            padding: 5px;
+            color: #13C5DD !important;
+            text-transform: uppercase;
+            text-decoration: underline;
+            text-decoration-thickness: 5px;
+            text-decoration-color: rgb(211, 200, 200);
+            text-align: center;
+        }
+    
+        .contact .title h1 {
+            margin: 5px;
+            font-size: 2.5rem;
+            padding: 5px;
+            text-transform: capitalize;
+            color: #00134e !important;
+            text-align: center;
+        }
+    
+        .rows img {
+            padding: 20px;
+            margin: 5px;
+            width: 80px;
+            border-radius: 50%;
+            background-color: #13C5DD !important;
+        }
+    
+        .contact .rows {
+            width: 30%;
+            height: 250px;
+            font-size: 1.1rem;
+            display: block;
+            padding: 50px;
+            margin: 15px;
+            float: left;
+            background-color: #cef0f5;
+            text-align: center;
+    
+            &:hover {
+                transform: scale(1.05);
+                box-shadow: 3px 6px 9px rgb(64, 102, 107);
+                cursor: pointer;
+            }
+        }
+    
+        .contact .form {
+            margin: 50px;
+        }
+    
+        .contact .form form {
+            background-color: #ffffff;
+            width: 50%;
+            height: 550px;
+            height: max-content;
+            margin: auto;
+            border-radius: 20px;
+            box-shadow: 3px 6px 9px rgb(64, 102, 107);
+            text-align: center;
+            padding: 20px;
+        }
+    
+        .form form input {
+            background-color: #ececec;
+            padding: 20px;
+            width: 85%;
+            margin: 10px;
+            display: block;
+            float: left;
+            border-radius: 10px;
+            transition: 0.75s;
+    
+            &:hover {
+                border: 3px solid #99dbe4;
+            }
+        }
+    
+        form>input:nth-child(1),
+        input:nth-child(2) {
+            width: 40%;
+            margin: 15px;
+        }
+    
+        form>input:nth-child(2) {
+            width: 40%;
+            margin: 10px;
+        }
+    
+        .form form textarea {
+            border-radius: 15px;
+            padding: 10px;
+            margin: 10px;
+            background-color: #eceeee;
+            transition: 0.75s;
+    
+            &:hover {
+                border: 3px solid #99dbe4;
+            }
+        }
+    
+        .form form #submit {
+            font-size: 1.2rem;
+            padding: 5px 10px;
+            border-radius: 20px;
+            background-color: #13C5DD;
+            border: 1px solid transparent;
+        }
+    
+        /* =======FOOTER SECTION PAGE========== */
+        .footer {
+            margin-top: 100px;
+            width: 100%;
+            color: white;
+            padding: 40px;
+            background-color: #182a53 !important;
+        }
+    
+        .footer .footer-block {
+            display: flex;
+            margin-left: 50px;
+            flex-direction: row;
+            gap: 50px;
+            justify-items: center;
+        }
+    
+        .footer-block .footer-contact h2 {
+            margin: 5px;
+            font-size: 1.4rem;
+            padding: 5px;
+            color: #13C5DD !important;
+            text-transform: uppercase;
+            text-decoration: underline;
+            text-decoration-thickness: 5px;
+            text-decoration-color: rgb(211, 200, 200);
+            text-align: left;
+        }
+    
+        .footer-block .footer-contact img {
+            width: 20px;
+            margin: 10px;
+        }
+    
+        .footer-block .Quicklink h2 {
+            margin: 5px;
+            font-size: 1.4rem;
+            padding: 5px;
+            color: #13C5DD !important;
+            text-transform: uppercase;
+            text-decoration: underline;
+            text-decoration-thickness: 5px;
+            text-decoration-color: rgb(180, 178, 178);
+            text-align: left;
+        }
+    
+        .footer-block .Quicklink ul,
+        li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 400;
+        }
+    
+        .footer-block .social-media h2 {
+            margin: 5px;
+            font-size: 1.4rem;
+            padding: 5px;
+            color: #13C5DD !important;
+            text-transform: uppercase;
+            text-decoration: underline;
+            text-decoration-thickness: 5px;
+            text-decoration-color: rgb(211, 200, 200);
+            text-align: left;
+        }
+    
+        .footer-block .social-media .icon {
+            width: 350px;
+            padding: 50px;
+        }
+    
+        .footer-block .social-media .icon h4 {
+            font-size: 1.2rem;
+            margin: 20px;
+            color: #13C5DD !important;
+            text-transform: uppercase;
+            text-align: left;
+        }
+    
+        .footer-block .social-media .icon img {
+            width: 50px;
+            margin: 6px;
+            float: left;
+        }
+    
+        .below-hr {
+            border-top: 1px solid rgb(104, 230, 247);
+            padding: 5px;
+        }
+    
+        .below-hr p {
+            margin: 0px;
+            text-align: center;
+        }
+}
